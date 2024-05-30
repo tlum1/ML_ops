@@ -40,6 +40,3 @@ def create_app():
         return send_from_directory('output', filename)
 
     return app
-
-
-predict(preprocess("./input/test_2024-05-29 14:26:17.124706.csv"))
